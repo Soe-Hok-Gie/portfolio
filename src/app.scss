@@ -1,10 +1,11 @@
 .app{
     height: 100vh;
+    // background-color: lightblue;
 
     .sections{
         width: 100%;
-        height: calc(100vh -70px);
-        background-color: mediumvioletred;
+        height: calc(100vh - 70px);//perhatikan spasi, error 2 hari disitu :(
+        background-color: lightsalmon;
     }
  
 }
