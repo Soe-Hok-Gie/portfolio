@@ -8,4 +8,22 @@
     position: fixed;
     top: 0;
     z-index: 2;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .left{
+
+            .logo{
+                font-size: 40px;
+                font-weight: 600;
+                text-decoration: none;
+                color: inherit;//jika sebuah kode CSS memiliki nilai inherit, maka property tersebut akan mengcopy nilai dari tag induk (Parent). 
+            }
+        }
+    }
 }
