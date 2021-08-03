@@ -6,6 +6,14 @@
         width: 100%;
         height: calc(100vh - 70px);//perhatikan spasi, error 2 hari disitu :(
         background-color: lightsalmon;
+        position: relative;
+        top: 70px;
+
+
+        > *{//asterik selector
+            width: 100vw;
+            height: calc(100vh - 70px) ;
+        }
     }
  
 }
