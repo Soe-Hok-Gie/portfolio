@@ -2,7 +2,7 @@ import "./testemonials.scss"
 
 export default function Testemonials() {
     return (
-        <div className="testemonials">
+        <div className="testemonials" id="testemonials">
             
         </div>
     )
