@@ -17,12 +17,19 @@
 
 
         .left{
+            display: flex;
+            align-items: center;
 
             .logo{
                 font-size: 40px;
                 font-weight: 600;
                 text-decoration: none;
                 color: inherit;//jika sebuah kode CSS memiliki nilai inherit, maka property tersebut akan mengcopy nilai dari tag induk (Parent). 
+                margin-right: 40px;
+            }
+            .itemContaner{
+                display: flex;
+                align-items: center;
             }
         }
     }
