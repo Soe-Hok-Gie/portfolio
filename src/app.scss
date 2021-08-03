@@ -5,14 +5,16 @@
     .sections{
         width: 100%;
         height: calc(100vh - 70px);//perhatikan spasi, error 2 hari disitu :(
-        background-color: lightsalmon;
+        background-color: yellow;
         position: relative;
         top: 70px;
+        scroll-snap-type: y mandatory;
 
 
         > *{//asterik selector
             width: 100vw;
             height: calc(100vh - 70px) ;
+            scroll-snap-align: start;
         }
     }
  
