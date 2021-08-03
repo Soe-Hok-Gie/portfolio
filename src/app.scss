@@ -9,7 +9,10 @@
         position: relative;
         top: 70px;
         scroll-snap-type: y mandatory;
-
+        scrollbar-width: none;//firefox 
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{//asterik selector
             width: 100vw;
