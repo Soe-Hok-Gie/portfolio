@@ -12,7 +12,7 @@ export default function Topbar() {
 
                 </div>
                 <div className="right">
-                <a href="#portfolio">hihi</a>
+                <a href="#works">hihi</a>
 
                 </div>
             </div>
