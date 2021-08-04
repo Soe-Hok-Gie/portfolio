@@ -45,7 +45,7 @@
         }
         .right{
 
-            .humburger{
+            .humburger{ 
                 width: 32px;
                 height: 25px;
                 display: flex;
@@ -58,14 +58,34 @@
                     width: 100px;
                     height: 3px;
                     background-color: $mainColour;
+                    transform-origin: left;
+                    transition: all  2s ease;
                 }
             }
 
         }
     }
-    &.active{
+    &.active{// &. cari penjelasannya
         background-color: $mainColour;
         color: whitesmoke;
+
+        .humburger{
+            span{
+                &:first-child{
+                    background-color: whitesmoke;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){  
+                    opacity: 0;
+                }
+
+                &:last-child{
+                    background-color: whitesmoke;
+                    transform: rotate(-45deg);
+
+                } 
+            }
+        }
 
     }
 }
