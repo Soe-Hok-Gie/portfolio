@@ -3,7 +3,7 @@ import {Person,Mail} from "@material-ui/icons"
 
 export default function Topbar() {
     return (
-        <div className="topbar"> 
+        <div className="topbar active"> 
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">Gembel.</a>
@@ -24,6 +24,7 @@ export default function Topbar() {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 }
