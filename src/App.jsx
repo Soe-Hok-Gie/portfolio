@@ -10,10 +10,10 @@ import {useState} from "react"
 //sections gak terbaca
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
   return (
     <div className="app">
-      <Topbar/>
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         
         <Intro/> 
