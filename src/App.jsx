@@ -5,10 +5,12 @@ import Works from "./components/works/Works"
 import Testemonials from "./components/testemonials/Testemonials"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
+import {useState} from "react"
 
 //sections gak terbaca
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
       <Topbar/>
