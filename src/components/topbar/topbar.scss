@@ -50,13 +50,14 @@
                 width: 32px;
                 height: 25px;
                 display: flex;
+              
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
 
 
                 span{
-                    width: 100px;
+                    width: 100%;//bedakan % dengan pixel
                     height: 3px;
                     background-color: $mainColour;
                     transform-origin: left;
@@ -69,7 +70,7 @@
     &.active{// &. cari penjelasannya
         background-color: $mainColour;
         color: whitesmoke;
-
+        
         .humburger{
             span{
                 &:first-child{
