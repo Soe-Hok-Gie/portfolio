@@ -15,7 +15,8 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+
       <div className="sections">
         
         <Intro/> 

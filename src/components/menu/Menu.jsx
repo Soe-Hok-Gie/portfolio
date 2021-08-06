@@ -1,8 +1,10 @@
 import "./menu.scss"
 
-export default function Menu() {
+export default function Menu({menuOpen, setMenuOpen}) {
     return (
-        <div className="menu">
+        //perhatikan className menu, tanda petiknya spasi. spasi disini berfungsi sebagai pemisah antara className menu dgn class aktive
+        <div className={"menu " + (menuOpen && "active")} >
+
             <ul>
                 <li>
                     <a href="#intro">Home</a>
