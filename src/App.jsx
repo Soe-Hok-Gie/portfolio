@@ -6,6 +6,7 @@ import Testemonials from "./components/testemonials/Testemonials"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
 import {useState} from "react"
+import Menu from "./components/menu/Menu"
 
 //sections gak terbaca
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu/>
       <div className="sections">
         
         <Intro/> 
