@@ -47,11 +47,20 @@
         }
         a{
             position: absolute;
-            bottom: 30px;
+            bottom: 10px;
+            left: 60%;
 
         
             img{
                 width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+                
             }
 
         }
