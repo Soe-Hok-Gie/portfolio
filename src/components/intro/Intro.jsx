@@ -2,19 +2,19 @@ import "./intro.scss"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
 
-
 export default function Intro() {
 
     const textRef = useRef ();
 
     useEffect (()=>{
-    init(textRef.current, { 
-        showCursor: false,
+
+        init(textRef.current, { 
+        showCursor: true,
         backDelay:  1500,
         strings: ['Writer', 'React Newbie' ] 
     });
 },[]);
-
+//pahami lagi cara menggunakan hook useEffect, depedensi,textRef (hook ref) dan ityped
 
     return (
         <div className="intro" id="intro">
