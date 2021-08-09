@@ -9,10 +9,10 @@ export default function Intro() {
     useEffect (()=>{
 
         init(textRef.current, { 
-        showCursor: true,
-        backDelay:  1500,
-        strings: ['Writer', 'React Newbie' ] 
-    });
+            showCursor: true,
+            backDelay:  1500,
+            strings: ['Writer', 'React Newbie' ] 
+        });
 },[]);
 //pahami lagi cara menggunakan hook useEffect, depedensi,textRef (hook ref) dan ityped
 
@@ -29,7 +29,7 @@ export default function Intro() {
                     <h1>Gembele Elite</h1>
                     <h3>Freelance <span ref={textRef}></span></h3>
                 </div>
-                <a href="portfolio">
+                <a href="#portfolio">
                     <img src="assets/down.png" alt=""/>
                 </a>
             </div>
