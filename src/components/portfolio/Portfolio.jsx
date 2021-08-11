@@ -5,14 +5,14 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li>Featured</li>
+                <li >Featured</li>
                 <li>Web Apps</li>
                 <li>Mobile Apps</li>
                 <li>Branding</li>
             </ul>
             <div className="container">
                 <div className="item">
-                     <img src="https://images.pexels.com/photos/7605981/pexels-photo-7605981.jpeg?cs=srgb&dl=pexels-mart-production-7605981.jpg&fm=jpg" alt=""/>
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
                      
                      <h3>Branding app</h3>
                 </div>
