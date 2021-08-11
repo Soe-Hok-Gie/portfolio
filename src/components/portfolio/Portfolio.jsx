@@ -11,6 +11,32 @@ export default function Portfolio() {
                 <li>Branding</li>
             </ul>
             <div className="container">
+            <div className="item">
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
+                     
+                     <h3>Branding app</h3>
+                </div>
+                <div className="item">
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
+                     
+                     <h3>Branding app</h3>
+                </div>
+                <div className="item">
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
+                     
+                     <h3>Branding app</h3>
+                </div>
+                <div className="item">
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
+                     
+                     <h3>Branding app</h3>
+                </div>
+            
+                <div className="item">
+                     <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
+                     
+                     <h3>Branding app</h3>
+                </div>
                 <div className="item">
                      <img src="https://cdn.iconscout.com/icon/premium/png-128-thumb/coding-1543907-1306295.png" alt=""/>
                      
