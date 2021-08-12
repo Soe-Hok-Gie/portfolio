@@ -1,14 +1,34 @@
 import "./portfolio.scss"
 
 export default function Portfolio() {
+
+     const list =[
+          {
+               id:"featured",
+               title:"Featured",
+          },
+          {
+               id:"web",
+               title:"Web App"
+          },
+          {
+               id:"mobile",
+               title:"Mobile App",
+          },
+          {
+               id:"writer",
+               title:"Writer Poem"
+          }
+     ]
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
                 <li className="active">Featured</li>
-                <li>Web Apps</li>
-                <li>Mobile Apps</li>
-                <li>Banking</li>
+                <li>Web App</li>
+                <li>Mobile App</li>
+                <li>Writer Poem</li>
             </ul>
             <div className="container">
             <div className="item">
