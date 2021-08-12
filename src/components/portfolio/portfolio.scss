@@ -18,19 +18,7 @@
         list-style: none;
         display: flex;
 
-        li{
-            font-size: 14px;
-            margin-right: 50px;
-            padding: 6px;
-            border-radius: 10px;
-            cursor: pointer;
-
-
-            &.active{
-                background-color: $mainColour;
-                color: blanchedalmond;
-            }
-        }
+  
     }
     .container{
         width: 100%;

@@ -25,10 +25,7 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li className="active">Featured</li>
-                <li>Web App</li>
-                <li>Mobile App</li>
-                <li>Writer Poem</li>
+              
             </ul>
             <div className="container">
             <div className="item">
